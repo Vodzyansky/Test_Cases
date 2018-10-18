@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ЛУН</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <div class="top-nav wrap">
+        <ul>
+            <li>1</li>
+            <li>2</li>
+            <li>3</li>
+            <li>4</li>
+        </ul>
+    </div>
+    <form action="">
+        <div>
+            <fieldset class="form-step-1 wrap">
+                <legend>1. Введите имя и e-mail</legend>
+                <input type="text" name="name" placeholder="Имя" required>
+                <input type="email" name="email" placeholder="E-mail" required>
+            </fieldset>
+        </div>
+        <fieldset class="form-step-2 wrap" style="display: none">
+            <legend>2. Выберите страну и город</legend>
+            <select name="Countries" id="countries" onchange="changeSelect(this)" required>
+                <option value="Страна" disabled selected hidden>Страна</option>
+            </select>
+            <select name="Cities" id="cities">
+                <option value="Город" disabled selected>Город</option>
+            </select>
+        </fieldset>
+
+        <fieldset class="form-step-3 wrap" style="display: none">
+            <legend>3. Отметьте социальные сети</legend>
+            <div class="form-step-3-checkboxes">
+                <input type="checkbox" id="checkbox-fb" class="css-checkbox">
+                <label for="checkbox-fb" class="css-label">Facebook</label><br>
+                <input type="checkbox" id="checkbox-vk">
+                <label for="checkbox-vk">Вконтакте</label><br>
+                <input type="checkbox" id="checkbox-tw">
+                <label for="checkbox-tw">Twitter</label><br>
+                <input type="checkbox" id="checkbox-ok">
+                <label for="checkbox-ok">Одноклассники</label>
+            </div>
+            <div class="form-step-3-inputs">
+                <input type="url" name="url-fb" placeholder="Ваша страница Facebook">
+                <input type="url" name="url-vk" placeholder="Ваша страница Вконтакте">
+                <input type="url" name="url-tw" placeholder="Ваша страница Twitter">
+                <input type="url" name="url-ok" placeholder="Ваша страница Одноклассники">
+            </div>
+        </fieldset>
+
+        <fieldset class="form-step-1 wrap" style="display: none">
+            4
+        </fieldset>
+
+        <fieldset class="form-step-1 wrap" style="display: none">
+            FINISH
+        </fieldset>
+        <div class="buttons wrap">
+            <button type="button" name="previous" id="previous-step" disabled>Предыдущий</button>
+            <button type="button" name="next" id="next-step">Следующий</button>
+            <button type="button" name="finish" id="btn-finish" style="display: none">Завершить</button>
+        </div>
+    </form>
+    <script src="main.js"></script>
+</body>
+
+</html>
