@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]><html lang="ru" class="lt-ie9 lt-ie8 lt-ie7"><![endif]-->
+<!--[if IE 7]><html lang="ru" class="lt-ie9 lt-ie8"><![endif]-->
+<!--[if IE 8]><html lang="ru" class="lt-ie9"><![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="ru">
+  <!--<![endif]-->
+
+  <head>
+    <meta charset="utf-8"/>
+    <title>EuroUber - с нами успех!</title>
+    <meta name="description" content=""/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"/>
+    <link rel="shortcut icon" href="img/favicon.png"/>
+    <link rel="stylesheet" href="libs/bootstrap/bootstrap-grid-3.3.1.min.css"/>
+    <link rel="stylesheet" href="libs/font-awesome-4.2.0/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="libs/owlcarousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="libs/owlcarousel/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/fonts.css"/>
+    <link rel="stylesheet" href="css/main.css"/>
+    <link rel="stylesheet" href="css/media.css"/>
+  </head>
+
+  <body>
+    <div id="fb-root"></div>
+    <script>
+      (function (d, s, id) {
+        var js,
+          fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) 
+          return;
+        js = d.createElement(s);
+        js.id = id;
+        js.src = "//connect.facebook.net/ru_RU/sdk.js#xfbml=1&version=v2.10";
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+    </script>
+    <header class="main-header">
+      <div class="top-line">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-3 col-md-2 col-sm-3 col-xs-3">
+              <div class="logo"></div>
+            </div>
+            <a href="#!" class="menu-resp hidden-md hidden-lg">
+              <span></span>
+            </a>
+            <div class="menu-resp-list hidden-md hidden-lg">
+              <ul>
+                <li>
+                  <a href="/">Главная</a>
+                </li>
+                <li>
+                  <a href="#reviews">Отзывы</a>
+                </li>
+                <li>
+                  <a href="#features">О нас</a>
+                </li>
+                <li>
+                  <a href="#contacts">Контакты</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-lg-6 col-md-6">
+              <nav class="main-menu">
+                <ul>
+                  <li>
+                    <a href="/">Главная</a>
+                  </li>
+                  <li>
+                    <a href="#reviews">Отзывы</a>
+                  </li>
+                  <li>
+                    <a href="#features">О нас</a>
+                  </li>
+                  <li>
+                    <a href="#contacts">Контакты</a>
+                  </li>
+
+                </ul>
+              </nav>
+
+            </div>
+
+            <div class="col-lg-3 col-md-4 col-sm-8 col-xs-9">
+              <div class="phone">
+                <img src="/img/tg.png" alt="" width="30px">
+                <img src="/img/viber.png" alt="" width="30px">
+                <span>(099) 343-91-58
+                </span>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="header-wrap">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6 col-md-5">
+              <div class="header-left">
+                <h1>Акция от
+                  <span>Euro</span>Uber</h1>
+                <p>Приятный бонус для новых водителей. Заключается он в следующем - совершите в течении недели не менее 100 поездок и получите 10 литров топлива для Вашего автомобиля!</p>
+                <img src="/img/gas.png" alt="10 литров EuroUber">
+              </div>
+            </div>
+            <div class="col-lg-4 col-lg-offset-1 col-md-5 col-md-offset-1">
+              <form action="contact.php" method="post" class="header-form">
+                <div class="title-form">
+                  <h4>Оставьте контакты</h4>
+                </div>
+                <div class="content-form">
+                  <p>Укажите свои данные и мы свяжемся с Вами в кратчайшие сроки.</p>
+                  <input type="text" name="name" placeholder="Имя" required="required">
+
+                  <input type="tel" name="phone" placeholder="Телефон" required="required">
+
+                  <select name="city" required="required">
+                    <option value="" hidden="hidden" disabled="disabled" selected="selected">Город</option>
+                    <option value="Киев">Киев</option>
+                    <option value="Львов">Львов</option>
+                    <option value="Одесса">Одесса</option>
+                    <option value="Днепр">Днепр</option>
+                    <option value="Харьков">Харьков</option>
+                  </select>
+                  <button type="submit">Отправить</button>
+                </div>
+              </form>
+              <div class="social">
+                <a href="#">
+                  <img src="/img/fb.png" class="soc-icon" alt="" width="50px">
+                </a>
+                <a href="#">
+                  <img src="/img/tw.png" class="soc-icon" alt="" width="50px">
+                </a>
+                <a href="#">s
+                  <img src="/img/vk.png" class="soc-icon" alt="" width="50px">
+                </a>
+                <a href="#">
+                  <img src="/img/inst.png" class="soc-icon" alt="" width="50px">
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+      <section id="reviews">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <h4>Отзывы о нашей компании</h4>
+              <div class="slider">
+
+                <div class="owl-carousel">
+                  <div class="slide">
+                    <div class="container">
+                      <div class="row">
+                        <div class="col-md-10 col-md-offset-1">
+                          <div class="img-wrap">
+
+                            <img src="http://lorempixel.com/200/200/animals" alt="First review">
+                          </div>
+                          <h3>Алексей Потапов</h3>
+                          <div class="slide-desc">
+                            Водитель, бизнесмен
+                          </div>
+                          <p>С помощью персонала EuroUber - я узнал впервые, что такое Uber. Работой доволен, спасибо.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="slide">
+                    <div class="container">
+                      <div class="row">
+                        <div class="col-md-10 col-md-offset-1">
+                          <div class="img-wrap">
+                            <img src="http://lorempixel.com/200/200/food" alt="First review">
+                          </div>
+                          <h3>Алексей Потапов</h3>
+                          <div class="slide-desc">
+                            Водитель, бизнесмен
+                          </div>
+                          <p>Перешел от другого партнера к UeroUber. Результатом доволен, начиная от консультации заканчивая расчетом. Все четко, и быстро.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="slide">
+                    <div class="container">
+                      <div class="row">
+                        <div class="col-md-10 col-md-offset-1">
+                          <div class="img-wrap">
+                            <img src="http://lorempixel.com/200/200/cats" alt="First review">
+                          </div>
+                          <h3>Алексей Потапов</h3>
+                          <div class="slide-desc">
+                            Водитель, бизнесмен
+                          </div>
+                          <p>Это моя подработка. Катаюсь в неделю до 30 часов, и суммой дохода я очень доволен.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </section>
+      <section class="fb-reviews">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-10 col-md-offset-1">
+              <div class="fb-comm-wrap">
+                <div class="fb-comments" data-href="http://vodzyansky.com/uber/" data-width="100%" data-numposts="3"></div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="features">
+
+        <div class="container">
+          <div class="row">
+            <h4>Преимущества EuroUber</h4>
+            <div class="feature-wrap">
+              <div class="col-md-4 col-sm-5">
+                <img src="/img/24.png" alt="">
+              </div>
+              <div class="col-md-6 col-sm-7">
+                <p>Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Букв повстречался, заглавных океана! Великий рукописи, напоивший жизни толку о! Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные
+                  тексты. Букв повстречался, заглавных океана! Великий рукописи, напоивший жизни толку о!</p>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="feature-wrap">
+              <div class="col-md-4 pull-right col-sm-5">
+                <img src="img/money.png" alt="">
+              </div>
+              <div class="col-md-6  pull-right col-sm-7">
+                <p>Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Букв повстречался, заглавных океана! Великий рукописи, напоивший жизни толку о! Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные
+                  тексты. Букв повстречался, заглавных океана! Великий рукописи, напоивший жизни толку о!</p>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="feature-wrap">
+              <div class="col-md-4 col-sm-5">
+                <img src="img/location.png" alt="">
+              </div>
+              < d iv="iv" class="col-md-6 col-sm-7">
+                <p>Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Букв повстречался, заглавных океана! Великий рукописи, напоивший жизни толку о! Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные
+                  тексты. Букв повстречался, заглавных океана! Великий рукописи, напоивший жизни толку о!</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="contacts">
+        <div class="container">
+          <div class="row">
+            <h4>Контакты</h4>
+            <div class="contacts-left">
+              <img src="/img/tg.png" alt="" width="50px" style="margin-right: 10px; border: 2px solid  white; border-radius: 50%;">
+              <img src="/img/viber.png" alt="" width="50px" style="margin-right: 10px; border: 2px solid  white; border-radius: 50%;">
+              <p>(099) 34-39-158
+                <br>(068) 11-87-996
+                <br>(073) 1-12345-1</p>
+            </div>
+          </div>
+          <div class="col-md-5 col-md-offset-1 col-sm-4 col-sm-offset-2">
+            <img src="/img/mail.png" alt="" width="50px" style="margin-right: 10px; border: 2px solid  white; border-radius: 50%;">
+            <p>
+              <a href="mailto:chhe@ukr.net">chhe@ukr.net</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="footer-wrap">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6 col-sm-8 col-xs-9">
+              <div class="copyright">
+                EuroUber 2017. Все права защищены
+                <br>
+                <span>designed by WebMade Studio</span>
+              </div>
+            </div>
+            <div class="col-md-6 col-sm-4 col-xs-3">
+              <div class="to-top">
+                <a href="#">вверх</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </footer>
+    <!--[if lt IE 9]> <script src="libs/html5shiv/es5-shim.min.js"></script> <script src="libs/html5shiv/html5shiv.min.js"></script> <script src="libs/html5shiv/html5shiv-printshiv.min.js"></script> <script src="libs/respond/respond.min.js"></script>
+    <![endif]-->
+    <script src="libs/jquery/jquery-1.11.1.min.js"></script>
+    <script src="libs/owlcarousel/owl.carousel.min.js"></script>
+    <script src="js/common.js"></script>
+    <!-- Yandex.Metrika counter -->
+    <!-- /Yandex.Metrika counter -->
+    <!-- Google Analytics counter -->
+    <!-- /Google Analytics counter -->
+  </body>
+
+</html>
