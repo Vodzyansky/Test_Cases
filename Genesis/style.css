@@ -1,0 +1,113 @@
+body {
+  background-color: #6c7a87;
+  padding: 20px 0;
+  margin: 0 auto;
+  height: 100%;
+}
+
+table {
+  max-width: 600px;
+  min-width: 320px;
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+  margin: 0 auto;
+  padding: 0;
+  mso-table-lspace: 0pt;
+  mso-table-rspace: 0pt;
+}
+
+td {
+  margin: 0;
+  padding: 0;
+}
+
+.wrap-table-email,
+.table-content,
+.table-footer {
+  background-color: #181f27;
+}
+
+img {
+  outline: none;
+  -ms-interpolation-mode: bicubic;
+  display: block;
+  margin: 0 auto;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.table-header {
+  background-color: #4f5d6a;
+}
+
+.td-header {
+  font-family: Arial, Verdana, sans-serif;
+  color: #eaeaea;
+  font-size: 16px;
+  line-height: 22px;
+  mso-line-height-rule: exactly;
+  font-style: normal;
+  font-weight: bold;
+  letter-spacing: normal;
+  text-align: center;
+  padding: 15px 5px;
+}
+
+.content-img {
+  display: inline-block;
+  width: 180px;
+  padding: 15px 5px;
+}
+
+.underline {
+  border-bottom: 1px solid white;
+  color: #eaeaea;
+}
+
+.rborder {
+  border-left: 1px solid white;
+  height: 70%;
+}
+
+.cite {
+  text-transform: uppercase;
+  font-size: 34px;
+  font-family: Impact, Verdana, sans-serif;
+  color: #eaeaea;
+  line-height: 44px;
+  text-align: center;
+}
+
+.td-content-text {
+  font-family: Arial, Verdana, sans-serif;
+  color: #eaeaea;
+  font-size: 14px;
+  line-height: 20px;
+  mso-line-height-rule: exactly;
+  font-style: normal;
+  font-weight: normal;
+  letter-spacing: normal;
+  text-align: left;
+  padding: 10px;
+}
+
+.td-content-button {
+  text-align: center;
+  padding: 20px 0 30px;
+}
+
+.table-contacts {
+  font-family: Arial, Verdana, sans-serif;
+  font-size: 16px;
+  line-height: 22px;
+  mso-line-height-rule: exactly;
+  font-style: italic;
+  font-weight: normal;
+  letter-spacing: normal;
+  text-align: center;
+  padding: 20px 0 0;
+}
